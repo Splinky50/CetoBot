@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoTests", "..\CetoTests\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoLearner", "..\CetoLearner\CetoLearner.csproj", "{51E275CA-B960-4E43-8EF5-514EDD1707E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoLearnerTests", "..\CetoLearnerTests\CetoLearnerTests.csproj", "{CA9F706F-6097-47D1-A305-7977A50E2F5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{51E275CA-B960-4E43-8EF5-514EDD1707E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E275CA-B960-4E43-8EF5-514EDD1707E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E275CA-B960-4E43-8EF5-514EDD1707E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

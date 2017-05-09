@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataPoint.cs" />
     <Compile Include="Domain\Command\Code\Code.cs" />
     <Compile Include="Domain\Command\Command.cs" />
     <Compile Include="Domain\Command\Direction\Direction.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Domain\Command\ShipPlacement.cs" />
     <Compile Include="Domain\Command\Ship\Ship.cs" />
     <Compile Include="MapGenerator.cs" />
+    <Compile Include="MLHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

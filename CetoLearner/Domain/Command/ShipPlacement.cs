@@ -89,6 +89,26 @@ namespace CetoBot.Domain
 			ShipDirection = newDir;
 		}
 
+
+		public bool IsCollidedB(Point otherPoint)
+		{
+			bool collidedB = false;
+
+			foreach (Point myPoint in this.Points)
+			{
+				if (myPoint == otherPoint)
+				{
+					collidedB = true;
+					break;
+				}
+
+				if (collidedB)
+					break;
+			}
+
+			return collidedB;
+		}
+
 		public bool IsCollidedB(ShipPlacement otherShip)
 		{
 			bool collidedB = false;

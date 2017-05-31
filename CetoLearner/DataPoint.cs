@@ -7,15 +7,17 @@ using System.Drawing;
 
 namespace CetoLearner
 {
-	class DataPoint
+	public class DataPoint
 	{
 		public Point Coords;
 		public Dictionary<string, double> Features;
+		public int Class = 1;
 
-		public DataPoint(Map map, Point coords)
+		public DataPoint(Map map, Point coords, int outPutClass)
 		{
 			Coords = coords;
 			Features = BuildFeatures(map, coords);
+			Class = outPutClass;
 		}
 
 		public override string ToString()

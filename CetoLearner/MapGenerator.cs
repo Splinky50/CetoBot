@@ -115,6 +115,43 @@ namespace CetoLearner
 			}
 		}
 
+
+		public DataPoint GetRandomOpenSpace(bool HitOrMiss, int maxIterations = 1000)
+		{
+			Random rnd = new Random();
+			DataPoint retPoint = new DataPoint(this.CurrentMap, new Point(Height - 1, Width-1), -1);
+
+			bool gotSpace = false;
+			while((gotSpace == false) && (maxIterations > 0))
+			{
+				maxIterations--;
+				int x = rnd.Next(0, Width);
+				int y = rnd.Next(0, Height);
+
+				if (this.CurrentMap.GetSpace(x, y).State == SpaceState.Open)
+				{
+					bool isHit = false;
+
+					foreach (ShipPlacement s in ShipList)
+					{
+						if (s.IsCollidedB(new Point(x, y)))
+						{
+							isHit = true;
+						}
+					}
+
+					retPoint = new DataPoint(this.CurrentMap, new Point(x, y), isHit ? 1 : -1);
+
+					if (((isHit == true) && (HitOrMiss == true)) || ((isHit == false) && (HitOrMiss == false)))
+					{
+						gotSpace = true;
+					}
+				}
+			}
+
+			return retPoint;
+		}
+
 		public void PrintMap()
 		{
 			Console.WriteLine("Number of Shots: " + Shots);

@@ -1,0 +1,6 @@
+C:\Projects\Entelect 2017\CetoBot\Replayer\bin\Debug\Replayer.exe.config
+C:\Projects\Entelect 2017\CetoBot\Replayer\bin\Debug\Replayer.exe
+C:\Projects\Entelect 2017\CetoBot\Replayer\bin\Debug\Replayer.pdb
+C:\Projects\Entelect 2017\CetoBot\Replayer\obj\Debug\Replayer.exe
+C:\Projects\Entelect 2017\CetoBot\Replayer\obj\Debug\Replayer.pdb
+C:\Projects\Entelect 2017\CetoBot\Replayer\obj\Debug\Replayer.csprojResolveAssemblyReference.cache

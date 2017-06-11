@@ -1,0 +1,5 @@
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\obj\Debug\CetoCommon.csprojResolveAssemblyReference.cache
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\bin\Debug\CetoCommon.dll
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\bin\Debug\CetoCommon.pdb
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\obj\Debug\CetoCommon.dll
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\obj\Debug\CetoCommon.pdb

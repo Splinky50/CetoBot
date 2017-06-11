@@ -1,0 +1,4 @@
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\bin\Release\CetoCommon.dll
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\bin\Release\CetoCommon.pdb
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\obj\Release\CetoCommon.dll
+C:\Projects\Entelect 2017\CetoBot\CetoCommon\obj\Release\CetoCommon.pdb

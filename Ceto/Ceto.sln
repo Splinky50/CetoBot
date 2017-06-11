@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoLearner", "..\CetoLearn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoLearnerTests", "..\CetoLearnerTests\CetoLearnerTests.csproj", "{CA9F706F-6097-47D1-A305-7977A50E2F5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replayer", "..\Replayer\Replayer.csproj", "{FA6B0C47-4023-4FF9-B60A-10B98DCFD41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetoCommon", "..\CetoCommon\CetoCommon.csproj", "{4BCA9803-E755-469C-9CA0-287CD0DB22D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA9F706F-6097-47D1-A305-7977A50E2F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6B0C47-4023-4FF9-B60A-10B98DCFD41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6B0C47-4023-4FF9-B60A-10B98DCFD41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6B0C47-4023-4FF9-B60A-10B98DCFD41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6B0C47-4023-4FF9-B60A-10B98DCFD41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCA9803-E755-469C-9CA0-287CD0DB22D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCA9803-E755-469C-9CA0-287CD0DB22D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCA9803-E755-469C-9CA0-287CD0DB22D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCA9803-E755-469C-9CA0-287CD0DB22D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

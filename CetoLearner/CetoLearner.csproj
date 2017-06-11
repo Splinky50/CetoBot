@@ -33,9 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CetoCommon">
+      <HintPath>..\CetoCommon\bin\Debug\CetoCommon.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,15 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataPoint.cs" />
-    <Compile Include="Domain\Command\Code\Code.cs" />
-    <Compile Include="Domain\Command\Command.cs" />
-    <Compile Include="Domain\Command\Direction\Direction.cs" />
-    <Compile Include="Domain\Command\PlaceShipCommand.cs" />
-    <Compile Include="Domain\Command\ShipPlacement.cs" />
-    <Compile Include="Domain\Command\Ship\Ship.cs" />
-    <Compile Include="MapGenerator.cs" />
-    <Compile Include="MLHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

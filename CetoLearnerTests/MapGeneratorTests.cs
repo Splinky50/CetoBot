@@ -14,11 +14,7 @@ namespace CetoLearner.Tests
 		[TestMethod()]
 		public void MapGeneratorTest()
 		{
-			MapGenerator myGen = new MapGenerator(10, 10, 40);
-
-			myGen.PrintMap();
-
-			Assert.Fail();
+		
 		}
 	}
 }

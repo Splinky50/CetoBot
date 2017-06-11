@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA7173F0-8641-47BA-A9EE-BF27A0CE2CA4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{4BCA9803-E755-469C-9CA0-287CD0DB22D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CetoBot</RootNamespace>
-    <AssemblyName>CetoBot</AssemblyName>
+    <RootNamespace>CetoCommon</RootNamespace>
+    <AssemblyName>CetoCommon</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,13 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CetoCommon">
-      <HintPath>..\CetoCommon\bin\Debug\CetoCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -51,14 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bot.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="DataPoint.cs" />
+    <Compile Include="DecisionMaker.cs" />
+    <Compile Include="Domain\Command\Code\Code.cs" />
+    <Compile Include="Domain\Command\Command.cs" />
+    <Compile Include="Domain\Command\Direction\Direction.cs" />
+    <Compile Include="Domain\Command\PlaceShipCommand.cs" />
+    <Compile Include="Domain\Command\ShipPlacement.cs" />
+    <Compile Include="Domain\Command\Ship\Ship.cs" />
+    <Compile Include="MapGenerator.cs" />
+    <Compile Include="MLHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="bot.json" />
-    <None Include="packages.config" />
+    <Compile Include="WeightSet.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
